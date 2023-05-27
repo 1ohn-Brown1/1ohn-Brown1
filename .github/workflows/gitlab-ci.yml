@@ -1,4 +1,4 @@
-image: ubuntu:latest
+*<\\ [image]: ubuntu : latest
 
 # tzdata has to be installed separately and early to avoid it trying
 # to do manual zone configuration.
@@ -11,4 +11,4 @@ before_script:
 test:
   script:
   - echo "Running as ${USER:-root}"
-  - make check
+  - [make check] ;,github/workflows/Reset {
